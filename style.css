@@ -1,0 +1,50 @@
+
+
+.icons {
+    display: inline-block ;
+    vertical-align: top;
+    float: right;
+    
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.classOpt {
+    float: right;
+    padding-left: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.logo img {
+    padding-left: 5px ;
+}
+.logoName {
+    padding:6px;
+    margin: 30px;
+    padding-right: 40px;
+} 
+.logoName h2 {
+    margin-bottom: 0px;
+}
+.logoName p {
+    margin-top: 0px;
+}
+.pizzalogo {
+    display: flex;
+    justify-content: center;
+}
+.blogHeader {
+    display: flex;
+    width: 100%;
+}
+.print {
+    align-items: right;
+}
