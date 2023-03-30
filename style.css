@@ -44,7 +44,78 @@ nav {
 .blogHeader {
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 .print {
-    align-items: right;
+    display:inline-block;
+    float:right;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+
+}
+
+article p {
+    font-size:19px;
+    padding:10px;
+    padding-right:20px;
+    padding-left:20px;
+    text-align:center;
+}
+article {
+    width:57%;
+    text-align: justify;
+}
+.bar {
+    background-color: gray;
+    height:20px;
+}
+.list {
+   display:flex;
+}
+.rightDiv {
+    display:flex;
+    flex-direction: column;
+    padding-left:300px;
+}
+.leftDiv {
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    background-image:url(/chocolate-pizza/img/list-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width:50%;
+}
+.notepad {
+    
+    justify-content: center;
+    display:flex;
+    margin-bottom: 20px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+.btn {
+    background-color: rgb(193, 110, 9);
+    padding: 10px 50px;
+    height:50px;
+    margin-top:40px;
+    margin-left:40px;
+    color:white;
+}
+.middle h1 {
+    margin-bottom: 0px;
+}
+.middle p {
+    margin-top: 0px;
+}
+footer {
+    text-align: center;
 }
